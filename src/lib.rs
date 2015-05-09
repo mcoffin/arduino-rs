@@ -23,6 +23,7 @@ pub static EXTERNAL:u32     = 0x00;
 pub static DEFAULT:u32      = 0x01;
 
 pub mod ffi {
+    #[link(name = "arduino")]
 	extern "C" {
 		pub fn init();
 
