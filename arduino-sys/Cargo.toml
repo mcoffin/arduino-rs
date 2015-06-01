@@ -1,8 +1,4 @@
 [package]
-name = "arduino"
+name = "arduino-sys"
 version = "0.1.0"
 authors = ["Matt Coffin <mcoffin13@gmail.com>"]
-
-[lib]
-name = "arduino"
-crate-type = ["lib"]
