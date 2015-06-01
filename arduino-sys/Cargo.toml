@@ -2,3 +2,8 @@
 name = "arduino-sys"
 version = "0.1.0"
 authors = ["Matt Coffin <mcoffin13@gmail.com>"]
+build = "build.rs"
+links = "arduino"
+
+[build-dependencies]
+pkg-config = "0.3"

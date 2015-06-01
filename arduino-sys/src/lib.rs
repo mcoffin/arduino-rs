@@ -28,7 +28,6 @@ pub mod ffi {
     }
     pub use self::AnalogReference::AR_DEFAULT;
 
-    #[link(name = "arduino")]
 	extern "C" {
 		pub fn init();
 
